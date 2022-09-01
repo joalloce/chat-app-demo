@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="css/styles.css" />
   <title>Chat room</title>
 </head>
 <body>
@@ -9,6 +10,8 @@
   <form id="form" action="">
     <input id="input"/> <button>Send</button>
   </form>
+  <p>Users</p>
+  <ul id="userList"></ul>
   <script src="/socket.io/socket.io.js"></script>
   <script src="js/main.js"></script>
 </body>
