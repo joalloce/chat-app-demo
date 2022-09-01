@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Oleo+Script+Swash+Caps:wght@400;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --background-color: #dddddd;
+  --button-color: #bbb;
+}
+
+body {
+  background: white;
+  margin: 20px;
+  font-family: "Inter";
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  padding: 30px;
+  max-width: 1000px;
+  margin: 20px auto;
+  background: var(--background-color);
+  text-align: center;
+}
+
+.join-container {
+  text-align: center;
+  padding: 30px;
+  max-width: 800px;
+  margin: 20px auto;
+  background: var(--background-color);
+}
+
+.join-form label, input {
+  display: inline;
+}
+
+.join-form input {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+  border: none;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+.join-form .button {
+  background-color: var(--button-color);
+  border: 0;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Inter;
+  padding: 10px;
+}
+
+.chat-container {
+  display: flex;
+  width: 100%;
+}
+

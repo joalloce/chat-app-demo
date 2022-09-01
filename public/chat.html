@@ -5,13 +5,21 @@
   <title>Chat room</title>
 </head>
 <body>
-  <p>Hello</p>
-  <ul id="messages"></ul>
-  <form id="form" action="">
-    <input id="input"/> <button>Send</button>
-  </form>
-  <p>Users</p>
-  <ul id="userList"></ul>
+  <div class="container">
+    <h1>Chat</h1>
+    <div class="chat-container">
+      <div class="chat-room-container">
+        <ul id="messages"></ul>
+        <form id="form" action="">
+          <input id="input"/> <button>Send</button>
+        </form>
+      </div>
+      <div class="users-container">
+        <p>Users</p>
+        <ul id="userList"></ul>
+      </div>
+    </div>
+  </div>
   <script src="/socket.io/socket.io.js"></script>
   <script src="js/main.js"></script>
 </body>
